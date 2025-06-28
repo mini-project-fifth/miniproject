@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="openai" />
+        <module name="boot-camp-gateway" />
+        <module name="bestseller" />
+        <module name="book" />
+        <module name="writer" />
+        <module name="subscription" />
+        <module name="user" />
+        <module name="point" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bestseller" options="-parameters" />
+      <module name="book" options="-parameters" />
+      <module name="boot-camp-gateway" options="-parameters" />
+      <module name="openai" options="-parameters" />
+      <module name="point" options="-parameters" />
+      <module name="subscription" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="writer" options="-parameters" />
+    </option>
+  </component>
+</project>
